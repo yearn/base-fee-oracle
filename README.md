@@ -1,6 +1,6 @@
 # Base Fee Provider
 
-On supported networks, this contract reads block.basefee and reports it for interpretation by the [base fee oracle](https://github.com/yearn/yearn-vaults/blob/master/contracts/BaseFeeOracle.sol). The latest version of this contract is also found in this repo as well.
+On supported networks, this contract reads block.basefee and reports it for interpretation by the [base fee oracle](https://github.com/yearn/yearn-vaults/blob/master/contracts/BaseFeeOracle.sol). The latest version of this oracle contract can also be found in this repo.
 
 BaseStrategy versions prior to 0.4.5 hardcode an earlier version of the base fee oracle (legacy) that also has a hardcoded base fee provider address.
 
