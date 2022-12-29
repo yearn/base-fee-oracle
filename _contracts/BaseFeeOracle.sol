@@ -6,10 +6,11 @@ interface IBaseFee {
 }
 
 /**
+ * @title Yearn Base Fee Oracle
  * @dev Interprets the base fee from our base fee provider
  *  contract to determine if a harvest is permissable.
  *
- * Version 0.1.1
+ * Version 0.1.2
  */
 
 contract BaseFeeOracle {
